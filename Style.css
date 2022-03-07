@@ -1,0 +1,60 @@
+main{
+    background-color: #555;
+    color: black;
+    overflow: hidden;
+
+}
+
+header{
+    height: 5em;
+    padding: 1em;
+    background-color: aqua;
+    text-align: center;
+}
+body{
+    font-family:'Roboto Serif', sans-serif;
+    color: #555;
+}
+
+h1{
+    color: black;
+    background-color: steelblue;
+}
+
+h2{
+    background-color: azure;
+    color: #555;
+}
+
+img{
+    height: 200px;
+    text-align: left;
+}
+
+figcaption {
+    background-color: aquamarine;
+    color: black;
+    font-size: .85em;
+}
+
+table{
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+}
+
+div.review{
+    padding: 10px;
+    background-color: aqua;
+}
+aside{
+    background-color: rgb(41, 71, 71);
+    color: white;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    height: 4em;
+    padding: 1em;
+}
