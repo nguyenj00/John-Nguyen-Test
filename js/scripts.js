@@ -13,7 +13,7 @@
         },
         {
             name: 'git-blame',
-            description:'git-blame is the number five code git intergration.',
+            description:'git-blame haves less stars in git intergration.',
             author: 'alexcorre',
             url: 'https://atom.io/packages/git-blame',
             downloads: 291701,
