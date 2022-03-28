@@ -9,18 +9,18 @@ var messages = {
 var data = [
     {
         type: messageType.out,
-        user: 'Mike',
-        message: 'Hey, you have lunch plans?'
+        user: 'Steven',
+        message: 'Hey Joseph, you have lunch plans?'
     },
     {
         type: messageType.in,
-        user: 'Joe',
+        user: 'Joeseph',
         message: 'Hi Mike! No, How about QDouba?'
     },
     {
         type: messageType.out,
-        user: 'Mike',
-        message: "Ok, let's go!"
+        user: 'Steven',
+        message: "Ok, let's go and yout paying!"
     }
 ];
 
