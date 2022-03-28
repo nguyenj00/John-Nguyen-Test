@@ -75,14 +75,14 @@ function addMessageHandler(event){
 }
 
 function loadSeedData(){
-    for (var i = 0; i <data.length; i++) {
+    for (var i = 0; i < data.length; i++) {
         var message = new Message(data[i].type, data[i].user, data[i].message);
         messages.push(message);
     }
 
     var messagesContainerEl =document.getElementById('message-container');
 
-    for (var i = 0; i <messages.length; i++){
+    for (var i = 0; i < messages.length; i++){
         var message = message[i];
         var el = createMessageElement(message)
 
