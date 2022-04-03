@@ -3,17 +3,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ITDEV-160 Activities</title>
+    <title>Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
 </head>
-<Body>
-    <ul>
-        <li><a href="Activity1/index.html">Activity1</a></li>
-        <li><a href="Activity2/index.html">Activity2</a></li>
-        <li><a href="Activity3/index.html">Activity3</a></li>
-        <li><a href="Activity4/index.html">Activity4</a></li>
-        <li><a href="Activity5/index.html">Acitvity5</a></li>
-        <li><a href="Activity6/index.html">Activity6</a></li>
-        <li><a href="Activity7/index.html">Activity7</a></li>
-    </ul>
-</Body>
+<body>
+<header>
+    <h1>Todo List</h1>
+</header>
+<main>
+    <section>
+        <input type="text" id="input-input">
+        <button type="button" id="add-task">Add</button>
+    </section>
+    <section id="todo-list-container">
+        <ol id="active-list">
+
+        </ol>
+        <ul id="completed-list">
+
+        </ul>
+    </section>
+</main>
+</body>
+<footer>
+    <p>Copyright &copy; 2022</p>
+</footer>
+<script src="js/scripts.js"></script>
+</body>    
 </html>
